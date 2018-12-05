@@ -15,6 +15,7 @@
 .ps__rail-x {
   display: none;
   opacity: 0;
+  cursor: pointer;
   transition: background-color .2s linear, opacity .2s linear;
   -webkit-transition: background-color .2s linear, opacity .2s linear;
   height: 15px;
@@ -26,6 +27,7 @@
 
 .ps__rail-y {
   display: none;
+  cursor: pointer;
   opacity: 0;
   transition: background-color .2s linear, opacity .2s linear;
   -webkit-transition: background-color .2s linear, opacity .2s linear;
@@ -39,6 +41,7 @@
 .ps--active-x > .ps__rail-x,
 .ps--active-y > .ps__rail-y {
   display: block;
+  cursor: pointer;
   background-color: transparent;
 }
 
